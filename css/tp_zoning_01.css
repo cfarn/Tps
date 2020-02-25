@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* début tp 01 */
+
+body {
+    background: rgb(240,240,240);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#conteneur {
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid rgb(150,150,150);
+}
+
+/* header */
+
+/* header {
+    height: 120px;
+    float: left;
+} */
+
+aside {
+    height: 120px;
+    width: 300px;
+    background: #6495ED;
+    float: left;
+
+}
+
+.banniere {
+    height: 120px;
+    width: 660px;
+    background-color: #4169e2;
+    float: left;
+}
+
+/* nav */
+
+nav .even, nav .odd {
+    height: 50px;
+    width: 160px;
+    float: left;
+}
+
+.even {
+    background: #87CEFA;
+}
+
+.odd {
+    background: #00BFFF;
+}
+
+/* contenu principal */
+
+.gauche {
+    background: rgb(240,240,240);
+    color: rgb(150,150,150);
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.colonne {
+    height: 100px;
+    background: rgb(255,255,255);
+    margin: 20px;
+    border: 1px solid rgb(150,150,150);
+}
+
+.contenu {
+    height: 460px;
+    width: 620px;
+    margin: 20px;
+    border: 1px solid rgb(150,150,150);
+    background: rgb(255,255,255);
+}
+
+iframe {
+    width: 100%;
+}
+
+/* footer */
+
+footer .even, .footer .odd {
+    height: 80px;
+    width: 25%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
