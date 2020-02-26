@@ -50,7 +50,6 @@ table {
 /* début tp 01 */
 
 body {
-    /* margin-top: 0; */
     background: rgb(240,240,240);
     color: #fff;
     text-align: center;
@@ -61,22 +60,16 @@ body {
     width: 960px;
     height: 750px;
     margin: 0 auto;
-    border: 2px solid rgb(150,150,150);
+    border: 1px solid rgb(150,150,150);
 }
 
 /* header */
-
-/* header {
-    height: 120px;
-    float: left;
-} */
 
 aside {
     height: 120px;
     width: 300px;
     background: #6495ED;
     float: left;
-
 }
 
 .banniere {
@@ -104,15 +97,15 @@ nav .even, nav .odd {
 
 /* contenu principal */
 
-main {
+section {
     background-color: red;
+    color: rgb(150,150,150);
 }
 
 .gauche {
     background: rgb(240,240,240);
-    color: rgb(150,150,150);
+    /* color: rgb(150,150,150); */
     width: 300px;
-    /* height: 500px; */
     float: left;
 } 
 
@@ -123,26 +116,24 @@ main {
     border: 1px solid rgb(150,150,150);
 }
 
-.contenu {
+/* .contenu {
     height: 460px;
     width: 600px;
-    /* width: 68.75%; */
     margin: 20px;
-    /* padding: 20px; */
     border: 1px solid rgb(150,150,150);
     background: rgb(240,240,240);
     color: rgb(150,150,150);
     float: left;
-}
+} */
 
-.contenu h3 {
+/* .contenu h3 {
     height: 100px;
     line-height: 100px;
 }
 
 iframe {
     margin: 0 auto;
-}
+} */
 
 /* footer */
 
