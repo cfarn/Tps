@@ -5,6 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Essai zoning</title>
+    <style>
+        .rouge {
+            background: red;
+        }
+
+        .bleu {
+            background: royalblue;
+        }
+
+        .jaune {
+            background: yellow;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            width: 960px;
+            height: 500px;
+            border: 2px solid red;
+            text-align: center;
+        }
+
+        .gauche {
+            background: rgb(240,240,240);
+            width: 300px;
+            height: 100%;
+            float: left;
+        }
+
+        .colonne {
+            height: 100px;
+            line-height: 100px;
+            background: rgb(255,255,255);
+            border: 1px solid rgb(150,150,150);
+            /* margin: 20px; */
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+
+            
+        }
+
+        .droite {
+            background: rgb(240,240,240);
+            border: 1px solid rgb(150,150,150);
+            margin: 20px;
+            height: 460px;
+            width: 615px;
+            float: right;
+        }
+
+        /* .frame {
+            width: 560px;
+            height: 315px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        } */
+
+        iframe {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        h3 {
+            line-height: 60px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
 
 </head>
 <body>
@@ -16,8 +90,11 @@
             <div class="colonne">colonne D</div>
         </div>
         <div class="droite">
-
+            <h3>Contenu</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gcqu2V5lBZo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <div class="clear"></div>
     </section>
 </body>
 </html>

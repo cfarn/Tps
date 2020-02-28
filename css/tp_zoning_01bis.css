@@ -57,6 +57,7 @@ body {
 }
 
 #conteneur {
+    background-color: #fff;
     width: 960px;
     height: 750px;
     margin: 0 auto;
@@ -67,13 +68,16 @@ body {
 
 aside {
     height: 120px;
+    line-height: 120px;
     width: 300px;
     background: #6495ED;
     float: left;
 }
 
 .banniere {
+    color: #fff;
     height: 120px;
+    line-height: 120px;
     width: 660px;
     background-color: #4169e2;
     float: left;
@@ -83,6 +87,7 @@ aside {
 
 nav .even, nav .odd {
     height: 50px;
+    line-height: 50px;
     width: 160px;
     float: left;
 }
@@ -98,47 +103,53 @@ nav .even, nav .odd {
 /* contenu principal */
 
 section {
-    background-color: red;
+    width: 960px;
+    height: 500px;
+    /* background: white; */
     color: rgb(150,150,150);
 }
 
 .gauche {
     background: rgb(240,240,240);
-    /* color: rgb(150,150,150); */
     width: 300px;
+    height: 100%;
     float: left;
-} 
+}
 
 .colonne {
     height: 100px;
+    line-height: 100px;
     background: rgb(255,255,255);
-    margin: 20px;
     border: 1px solid rgb(150,150,150);
+    /* margin: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;   
 }
 
-/* .contenu {
-    height: 460px;
-    width: 600px;
-    margin: 20px;
-    border: 1px solid rgb(150,150,150);
+.contenu {
     background: rgb(240,240,240);
-    color: rgb(150,150,150);
-    float: left;
-} */
+    border: 1px solid rgb(150,150,150);
+    margin: 20px;
+    height: 460px;
+    width: 615px;
+    float: right;
+}
 
-/* .contenu h3 {
-    height: 100px;
+.contenu h3 {
     line-height: 100px;
 }
 
 iframe {
-    margin: 0 auto;
-} */
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /* footer */
 
 footer .even, footer .odd {
     height: 80px;
+    line-height: 80px;
     width: 25%;
     float: left;
 }
