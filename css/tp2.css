@@ -1,0 +1,64 @@
+body {
+    background: #202020;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#conteneur {
+    background: rgb(100, 100, 100);
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #228B22;
+    height: 120px;
+}
+
+footer {
+    background: #228B22;
+    height: 80px;
+}
+
+.logo {
+    /* width: 25%; */
+    width: 325px;
+    height: 120px;
+    background: #3CB371;
+    float: left;
+}
+
+nav {
+    width: 75%;
+    
+}
+
+nav .even, nav .odd {
+    width: 25%;
+    height: 50px;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+    /* float: left; */
+}
+
+.even {
+    background: #32CD32;
+    float: left;
+}
+
+.odd {
+    background: #9ACD32;
+    float: left;
+}
+
+.bloc {
+    background: rgb(200,200,200);
+    width: 46%;
+    height: 100px;
+    margin: 2%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
