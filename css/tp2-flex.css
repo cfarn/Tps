@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #202020;
+    color: #fff;
+    text-align: center;
+}
+
+#conteneur1, #conteneur3{
+    background: #228B22;;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#conteneur2 {
+    background: rgb(100,100,100);
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+
+.col-1{width: 8.333333%;}
+.col-2{width: 16.66666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+.ml-1{margin-left: 8.333333%;}
+.ml-2{margin-left: 16.66666%;}
+.ml-3{margin-left: 25%;}
+.ml-4{margin-left: 33.333333%;}
+.ml-5{margin-left: 41.666666%;}
+.ml-6{margin-left: 50%;}
+.ml-7{margin-left: 58.333333%;}
+.ml-8{margin-left: 66.666666%;}
+.ml-9{margin-left: 75%;}
+.ml-10{margin-left: 83.333333%;}
+.ml-11{margin-left: 91.666666%;}
+
+.mr-1{margin-right: 8.333333%;}
+.mr-2{margin-right: 16.66666%;}
+.mr-3{margin-right: 25%;}
+.mr-4{margin-right: 33.333333%;}
+.mr-5{margin-right: 41.666666%;}
+.mr-6{margin-right: 50%;}
+.mr-7{margin-right: 58.333333%;}
+.mr-8{margin-right: 66.666666%;}
+.mr-9{margin-right: 75%;}
+.mr-10{margin-right: 83.333333%;}
+.mr-11{margin-right: 91.666666%;}
+
+.logo {
+    height: 120px;
+    line-height: 120px;
+    background: #3CB371;
+}
+
+nav {
+    width: 75%;
+    
+}
+
+nav .even, nav .odd {
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+}
+
+.even {
+    background: #32CD32;
+}
+
+.odd {
+    background: #9ACD32;
+}
+
+.bloc {
+    background: rgb(200,200,200);
+    width: 46%;
+    height: 100px;
+    line-height: 100px;
+    margin: 2%;
+}
+
+iframe {
+    /* width="1250"; height="403" */
+    width: 80%;
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+}

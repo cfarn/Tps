@@ -6,7 +6,8 @@ body {
 
 #conteneur {
     background: rgb(100, 100, 100);
-    width: 80%;
+    /* width: 80%; */
+    width: 1250px;
     margin: 0 auto;
 }
 
